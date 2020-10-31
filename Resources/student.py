@@ -74,5 +74,3 @@ class SeeLost(Resource):
         except:
            return {"message":"There was an error."},500
         return {"message":"Successfully Displayed."},201
-
-class
